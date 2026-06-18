@@ -1,0 +1,21 @@
+/* frontend/src/App.css */
+
+/* Custom grid behavior and border refinement */
+.card {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+}
+
+/* Make cards pop cleanly on mouse hover */
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Ensure the text breaks cleanly inside description blocks */
+.card-body p {
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
